@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": "./src",
+    "paths": {
+      "@components*": ["ui/components*"],
+      "@maps*": ["ui/resources/maps*"],
+      "@models*": ["models*"],
+      "@core*": ["core*"],
+      "@app-types*": ["ui/resources/types*"],
+      "@custom-types": ["types"],
+      "@icons*": ["../public/icons*"],
+      "@pages*": ["../pages*"],
+      "@enums*": ["ui/resources/enums*"],
+      "@services/*": ["services/*"],
+      "@screens*": ["ui/screens*"],
+      "@sections*": ["ui/sections*"],
+      "@styles*": ["ui/styles*"],
+      "@context/*": ["context/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "./src/types/assets.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/_document.tsx",
+    "src",
+    "public/js",
+  ],
+}

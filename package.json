@@ -1,0 +1,43 @@
+{
+  "name": "henri-tec",
+  "description": "A portfolio of the HenriTec Company.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "William Hisnchink",
+    "email": "develop.william@gmail.com"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src/ --ext .tsx,.ts"
+  },
+  "dependencies": {
+    "@zeit/next-css": "1.0.1",
+    "axios": "0.19.2",
+    "date-fns": "2.16.1",
+    "eslint-config-airbnb": "18.2.0",
+    "jquery": "2.1.4",
+    "next": "10.0.7",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "webpack": "4.43.0"
+  },
+  "devDependencies": {
+    "@types/node": "13.13.4",
+    "@types/react": "16.9.34",
+    "@typescript-eslint/eslint-plugin": "3.7.0",
+    "@typescript-eslint/parser": "3.7.0",
+    "app-json-env-gen": "0.6.0",
+    "eslint": "7.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.20.3",
+    "tslint-config-airbnb": "5.11.2",
+    "tslint-react": "5.0.0",
+    "typescript": "3.8.3"
+  }
+}
