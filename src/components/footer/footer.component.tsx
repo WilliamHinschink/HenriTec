@@ -12,7 +12,7 @@ const initialForm = {
   cellphone: '',
   address: '',
   message: '',
-}
+};
 
 function Footer() {
   const [formParam, setFormParam] = useState<FormProps>(initialForm);
